@@ -1,8 +1,8 @@
-package coulomb.cats
+package coulomb
 
-import cats._
+import cats.{ Eq, Order }
 import cats.implicits._
-import coulomb.Quantity
+import coulomb._
 
 trait CatsImplicits {
   /**
